@@ -1,0 +1,151 @@
+\documentclass[margin,line]{res}
+
+\usepackage[utf8]{inputenc}
+\usepackage{paralist}
+\usepackage{hyperref}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+%\setlength{\pdfpagewidth}{\paperwidth}
+%\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Frédéric Portaria-Janicki, B. Ing.\vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2in}p{4in}}
+4822 rue Saint-André& {\it Mobile:}  (514) 969-9816 \\            
+Montréal, Quebec, H2J 3A3 &{\it Courriel:} frederic@janicki.ninja\\      
+\end{tabular}
+
+%%%%%%%%%%%%% FORMATION ACADEMIQUE %%%%%%%
+
+%%%%%%%%%%%%%% ETS Genie Electrique %%%%%%%%%
+
+\section{\sc Formation Académique}
+{\bf Baccalauréat en Génie Électrique et Informatique} \hfill {\bf 2015}\\
+École de technologie supérieure (ÉTS)
+Université du Québec, Montréal
+
+%%%%%%%%%%%%%% Cegep %%%%%%%%%%%%%%%
+
+{\bf Diplôme d'études collégiales en sciences de la nature} \hfill {\bf 2010}\\
+Collège Jean-de-Brébeuf
+
+%%%%%%%%%%%%%%% TRAVAIL %%%%%%%%%%%
+
+\section{\sc Expérience professionnelle}
+{\bf nventive} \hfill {\bf 2015}\\
+Développeur Mobile - Ingénierie de développement logiciel\\\\
+Développement multiplateformes (Android/iOS/Windows Phone) d'applications mobiles pour clients sous Xamarin.
+{\emph Exemples de clients:} Rdio, Twitter.
+
+{\emph Technologies utilisées:} C\#, Xamarin, .NET 5, Android SDK, iOS, Git, Visual Studio Online.
+
+%\begin{compactitem}
+%\item Programmation orientée objet en langage C\#
+%\end{compactitem}
+
+{\bf Mobeewave} \hfill {\bf 2015}\\
+Stagiaire - Ingénierie de développement logiciel\\\\
+Participation au développement d'une application de type serveur back-end en ajoutant de nouvelles fonctionnalitées et en participant au processus de design avec une méthodologie {\emph Agile}.
+{\emph Accomplissements:} Design et implémentation d'un système de cache partagée. 
+
+{\emph Technologies utilisées:} C\#, .NET 4.5, Amazon AWS, Redis, WebApi, Git, TFS, Visual Studio Online.
+
+%\begin{compactitem}
+%\item Programmation orientée objet en langage C\#
+%\end{compactitem}
+
+{\bf iBwave} \hfill {\bf 2014}\\
+Stagiaire - Ingénierie de développement logiciel\\\\
+Participation au développement de l'application {\emph iBwave design} en ajoutant de nouvelles fonctionnalitées et en participant au processus de design.
+
+{\emph Technologies utilisées:} C\#, XML, .NET 4.5
+
+%\begin{compactitem}
+%\item Programmation orientée objet en langage C\#
+%\end{compactitem}
+
+{\bf Hewlett-Packard} \hfill {\bf 2012-2013}\\
+Stagiaire - Ingénierie de test sur produits HP \\
+\\
+{\emph Habiletés développées: }
+\begin{compactitem}
+\item Connaissance des technologies de réseau d'entreprise.
+\item Programmation .NET, Powershell, Shell, Git.
+\end{compactitem}
+
+{\bf CGI} \hfill {\bf 2008-2012}\\
+Consultant
+\begin{compactitem}
+\item Diagnostic et résolution de problèmes techniques.
+\item Support technique informatique pour clients corporatifs.
+\end{compactitem}
+
+%%%%%%%%%% Connaissances Particulieres %%%%%%%%
+
+\section{\sc Connaissances Particulières}
+
+{\bf Informatique} \\
+Langages de programmation: C, C\#, Xamarin, Android, iOS, GLSL, Java\\
+Logiciels de design et principes: SOLID, REST, Unity 3D, Visual Studio 2013, TouchDesigner, \LaTeX \\\\
+{\bf Électronique} \\
+Électronique numérique, conception matérielle, programmation de microcontrôleurs, VHDL
+
+%%%%%%%%%%%% AUTRES EXP %%%%%%%%%%%%%%
+
+\section{\sc Expérience\\ Divers}
+{\bf Projets}\hfill
+\begin{itemize}
+\item Design et construction d'un dôme géodesique dans le contexte d'un projet multidisplinaire artistique pour le festival OpenMind 2015. Projet récipiendaire d'une bourse pour son design écologique.
+\item Design et fabrication d'un mur de 500 LED avec contrôle interactif numérique. Présenté lors d'une soirée de Noël chez nventive ainsi qu'une soirée résautage organisée par Facebook.
+\\\\{\emph Technologies utilisées:} TouchDesigner, ARM Cortex-M4, C, Communication série, Découpage laser, Design electrique.
+\item Développement d'une plateforme me permettant de faire de la génération d'images 2D et 3D en temps-réel pour concerts de musique. (VJing).
+\end{itemize}
+{\bf Implication} \hfill
+\begin{itemize}
+\item Directeur technique du collectif d'artistes {\emph Eden Creative}.
+\item Membre du club de développement de jeux vidéo {\emph Conjure}.
+\item Développement d'un prototype de jeu multijoueur dans le cadre du concours Ubisoft Académia 2014. Prototype gagnant de 2 des 10 prix disponibles.
+\item Participation à la compétition de sécurité informatique NorthSec 2014.
+\item Bénévole lors des jeux de Génie 2012.
+\end{itemize}
+{\bf Entrepreunariat} \hfill{\bf 2010-2012}\\
+Conception et mise en marché d'un produit électronique servant à la modification et réparation de téléphones cellulaires \emph{Samsung Galaxy S}
+%%%%%%%%%%% Mentions%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%% LOISIRS %%%%%%%%%%%%%%%%%
+
+\section{\sc Loisirs}
+Escalade - Yoga - VJing -  Informatique - Art visuel procédural - Photographie - Vélo
+
+%%%%%%%%%%%% FIN %%%%%%%%%%%%%%%%
+
+\end{resume}
+\end{document}
+
+
+
+
